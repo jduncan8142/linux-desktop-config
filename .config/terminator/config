@@ -1,0 +1,43 @@
+[global_config]
+  handle_size = 1
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#f8f8f2"
+  title_transmit_bg_color = "#282a36"
+  title_receive_fg_color = "#ffb86c"
+  title_receive_bg_color = "#8be9fd"
+  title_inactive_fg_color = "#6272a4"
+  title_inactive_bg_color = "#44475a"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, Logger
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    cursor_shape = ibeam
+    cursor_color = "#50fa7b"
+    cursor_color_fg = False
+    foreground_color = "#00ff00"
+    scrollback_lines = 10000
+    scrollback_infinite = True
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 3840:35
+      maximised = True
+      fullscreen = False
+      size = 2560, 1377
+      title = jason@yeti:~
+      last_active_term = be234872-d97c-49cc-832d-4f26c4938d10
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = be234872-d97c-49cc-832d-4f26c4938d10
+      directory = ""
+[plugins]
